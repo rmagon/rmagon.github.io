@@ -1,0 +1,51 @@
+#main{
+  margin-top:5em;
+}
+
+.bigButton,
+.smallButton{
+  border:none;
+  shadow:none;
+}
+
+.smallButton{
+  margin-top:.5em;
+}
+
+.bigButton{
+  padding-top:5em;
+  white-space: normal;
+  display: block; 
+  width: 100%;
+  text-align:center;
+  height:20em;
+}
+
+.smallButton:hover,
+.smallButton:focus,
+.smallButton:active,
+.bigButton:hover,
+.bigButton:active,
+.bigButton:focus{
+  opacity:0.9;
+  box-shadow:none;
+}
+
+#mqm-text{
+  font-size:2em;
+}
+
+#mqm-author{
+  padding-top:1em;
+  font-size:1em;
+}
+
+#mqm-random{
+  font-size:.8em;
+  margin-top:3em;
+}
+
+#mqm-tweet{
+  font-size:2em;
+  margin-top:.25em;
+}
