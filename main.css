@@ -1,0 +1,89 @@
+body{
+  background-color:#F6F6F6;
+  padding-top:50px;
+  position: relative; 
+}
+.mag-profile-img {
+    border-radius: 50%;
+    margin: 30px 0 10px;
+    max-width: 80%;
+    height: auto;
+    width: 250px;
+}
+
+.navbar{
+  margin-bottom:0px;
+}
+
+.navbar-brand{
+  font-size:1em;  
+}
+
+.mag-row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  align-items: center;
+}
+
+#about{
+  background-color:#FDF3E7;
+}
+
+#portfolio{
+  background-color:#FFFFFF;
+  padding-top:3em;
+}
+
+#contact{
+  background-color:#white;
+}
+section{
+  padding:40px;
+}
+
+.thumbnail{
+  margin:3em;
+}
+hr.mag-cool {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+}
+hr.mag-cool:after {
+	content: '</>';
+	display: inline-block;
+	position: relative;
+	top: -1em;
+	padding: 0 10px;
+	background: #FDF3E7;
+	font-size: 1.25em;
+}
+
+hr.mag-below-the-belt { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #8c8b8b, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #8c8b8b, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #8c8b8b, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #8c8b8b, #8c8b8b, #f0f0f0); 
+  margin-top:0px;
+  margin-bottom:2em;
+}
+
+.mag-cool-form-input,
+.mag-cool-form-input:hover,
+.mag-cool-form-input:active,
+.mag-cool-form-input:focus{
+    background-color:transparent;
+    border:none;
+    box-shadow:none;
+    font-size:2em;
+}
+
+.mag-contact-text{
+  font-size: 2em;
+  font-color: #f0f0f0;
+}
+
+
