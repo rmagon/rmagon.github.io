@@ -1,0 +1,33 @@
+body{
+  font-family: 'Concert One', sans-serif;
+}
+
+#mag-weather-main {
+  margin-top: 1em;
+}
+
+#mag-weather-icon {
+  font-size: 6em;
+  padding-bottom:.2em;
+}
+
+#mag-weather-city {
+  font-size: 1.5em;
+  padding-bottom:.2em;
+}
+
+#mag-weather-temperature{
+  font-size: 5em;
+}
+
+#mag-weather-unit{
+  font-size: 2em;
+}
+
+.mag-other-unit{
+  font-size: 1.2em;
+}
+
+.mag-other-value{
+  font-size: 2em;
+}
