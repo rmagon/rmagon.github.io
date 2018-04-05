@@ -9,136 +9,29 @@
 </head>
 
 <body>
-    <nav id="magNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navContent" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </button>
-                <a class="navbar-brand" href="#">Rachit Magon</a>
-            </div>
-            <div class="collapse navbar-collapse" id="navContent">
-                <ul class="nav navbar-nav pull-right">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+    <h1>iOS-like CSS3 sliding nested lists</h1>
 
-    </nav>
-    <div class="container">
-        <div id="about">
-            <div id="aboutContent">
-                <div class="row mag-row-eq-height ">
-                    <div class="col-xs-4 ">
-                        <img class="img-responsive " src="https://www.tm-town.com/assets/default_male600x600-79218392a28f78af249216e097aaf683.png "></img>
-                    </div>
-                    <div class="col-xs-8 ">
-                        <h2>Eat. Sleep. Code. Repeat.</h2>
-                        <hr class="mag-cool ">
-                        <h4 class="pull-right ">♥ Backend, User Experience, User Interface, Mobile & Web</h4>
-                    </div>
-                </div>
-            </div>
+<div class="list-wrapper">
+    <div class="list-container">
+        <div class="list-header-container">
+            <a href="" class="back-link">&lt;</a>
+            <h3>LIST TITLE</h3>
         </div>
-        <div id="portfolio">
-            <h2 class="text-center">PORTFOLIO</h2>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="http://techphilic.com/wp-content/uploads/2013/05/placeholder-1200x900.png">
-                        <div class="caption">
-                            <p class="text-center">Sample Project Description</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 ">
-                    <div class="thumbnail">
-                        <img src="http://techphilic.com/wp-content/uploads/2013/05/placeholder-1200x900.png">
-                        <div class="caption">
-                            <p class="text-center">Sample Project Description</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="http://techphilic.com/wp-content/uploads/2013/05/placeholder-1200x900.png">
-                        <div class="caption">
-                            <p class="text-center">Sample Project Description</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 ">
-                    <div class="thumbnail">
-                        <img src="http://techphilic.com/wp-content/uploads/2013/05/placeholder-1200x900.png ">
-                        <div class="caption">
-                            <p class="text-center">Sample Project Description</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 ">
-                    <div class="thumbnail">
-                        <img src="http://techphilic.com/wp-content/uploads/2013/05/placeholder-1200x900.png">
-                        <div class="caption">
-                            <p class="text-center">Sample Project Description</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 ">
-                    <div class="thumbnail">
-                        <img src="http://techphilic.com/wp-content/uploads/2013/05/placeholder-1200x900.png ">
-                        <div class="caption">
-                            <p class="text-center">Sample Project Description</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="contact">
-            <h2 class="text-center ">CONTACT</h2>
-            <br/>
-            <div class="row ">
-                <div class="col-xs-12 col-md-6 ">
-                    <form id="contactForm ">
-                        <div class="form-group mag-cool-form-item ">
-                            <input type="text " class="form-control mag-cool-form-input " id="inputName " placeholder="Name ">
-                            <hr class="mag-below-the-belt ">
-                        </div>
-                        <div class="form-group mag-cool-form-item ">
-                            <input type="email " class="form-control mag-cool-form-input " id="inputEmail " placeholder="Email ">
-                            <hr class="mag-below-the-belt ">
-                        </div>
-                        <div class="form-group mag-cool-form-item ">
-                            <input type="text " class="form-control mag-cool-form-input " id="inputEmail " placeholder="Phone ">
-                            <hr class="mag-below-the-belt ">
-                        </div>
-                        <div class="form-group mag-cool-form-item ">
-                            <textarea rows="5 " class="form-control mag-cool-form-input " id="inputMessage " placeholder="Message "></textarea>
-                            <hr class="mag-below-the-belt ">
-                        </div>
-                        <button type="submit " class="btn btn-default btn-block ">Send</button>
-                    </form>
-                </div>
-                <div class="col-xs-12 col-md-6 ">
-                    <p class="mag-contact-text ">
-                        <br/><br/>To get in touch with me please fill in your name, email address, phone number and message
-                        and click the submit button.
-                    </p>
-                    <p class="mag-contact-text ">
-                        I will get back to you once I receive the details
-                    </p>
-                    <p class="mag-contact-text ">Thank you</p>
-                </div>
-            </div>
+        <div class="list-body-container">
+            <ul id="list-0" class="list-0 active-list">
+                <li class="list-0-item">
+                    <a href="#list-1" class="list-link"><span class="list-link-label">Lorem ipsum.</span><span class="right-arrow">&gt;</span></a>
+                </li>
+                <li class="list-0-item">
+                    <a href="#list-2" class="list-link"><span class="list-link-label">Delectus, nemo!</span><span class="right-arrow">&gt;</span></a>
+                </li>
+                <li class="list-0-item">
+                    <a href="#list-3" class="list-link"><span class="list-link-label">Commodi, officiis.</span><span class="right-arrow">&gt;</span></a>
+                </li>
+            </ul>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
+</div>
 </body>
 
 </html>
